@@ -7,15 +7,15 @@ import { RiCloseLine,RiMenu3Line } from 'react-icons/ri';
 
 //BEM -> Block Element Modifier
 
-const Menu = ()=>{
-  <>
-    <p><a href="#home">Home</a></p>
-    <p><a href="#wgpt3">What is GPT3</a></p>
-    <p><a href="#possibility">OpenAI</a></p>
-    <p><a href="#features">Case Studies</a></p>
-    <p><a href="#blog">Library</a></p>
-  </>
-}
+// const Menu = ()=>{
+//   <>
+//     <p><a href="#home">Home</a></p>
+//     <p><a href="#wgpt3">What is GPT3</a></p>
+//     <p><a href="#possibility">OpenAI</a></p>
+//     <p><a href="#features">Case Studies</a></p>
+//     <p><a href="#blog">Library</a></p>
+//   </>
+// }
 
 const Navbar = () => {
 const [toggleMenu , setToggleMenu] = useState(false);
@@ -30,7 +30,7 @@ const [toggleMenu , setToggleMenu] = useState(false);
           <p><a href="#wgpt3">What is GPT3</a></p>
           <p><a href="#possibility">OpenAI</a></p>
           <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p><Menu />
+          <p><a href="#blog">Library</a></p>
         </div>
       </div>
 

@@ -83,10 +83,27 @@
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
+.gpt3__navbar-links_container p {
+    position: relative;
+}
+.gpt3__navbar-links_container p a::after{
+    content: '';
+    background: #ff4820;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    transition: width 0.2s;
+}
+.gpt3__navbar-links_container p:hover a::after{
+    width: 100%;
+}
 
 .gpt3__navbar-menu_container p{
     margin: 1rem 0;
 }
+
 .gpt3__navbar-menu_container-links-sign{
     display: none;
 }
